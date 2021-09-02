@@ -1,0 +1,7 @@
+[package]
+name = "tydi-lang-lexer"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+logos = "0.12"

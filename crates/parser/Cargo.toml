@@ -1,0 +1,9 @@
+[package]
+name = "tydi-lang-parser"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+tydi-lang-lexer = { path = "../lexer" }
+tydi-lang-syntax = { path = "../syntax" }
+rowan = "0.13"

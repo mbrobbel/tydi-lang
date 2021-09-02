@@ -1,0 +1,17 @@
+[package]
+name = "tydi-lang"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+tydi-lang-ast = { path = "crates/ast" }
+tydi-lang-parser = { path = "crates/parser" }
+
+[workspace]
+members = [
+  "crates/ast",
+  "crates/hir",
+  "crates/lexer",
+  "crates/parser",
+  "crates/syntax"
+]
